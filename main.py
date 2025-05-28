@@ -46,7 +46,6 @@ def main():
     category = ui.select(options=categories, with_input=True).classes('w-40')
     priority = ui.checkbox('High Priority')
 
-    # Station lookup UI moved here, above submit button
     ui.label('Enter nearest station CRS Code').classes('mt-6 font-semibold')
     station_input = ui.input(label='Station CRS code (e.g. WAT)').classes('w-40')
     station_msg = ui.label('').classes('text-sm mt-1')
@@ -63,7 +62,7 @@ def main():
 
     station_input.on('blur', validate_station)
 
-    submit = ui.button('Add Note').props('enabled')  # now after station input
+    submit = ui.button('Add Note').props('enabled')
 
     with ui.expansion('Insert Default Note', icon='note'):
         for item in default_notes:

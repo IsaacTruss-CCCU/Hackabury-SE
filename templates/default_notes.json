@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Operational Issues",
+    "text": "Train delayed at [Station Name] due to [Reason]",
+    "priority": false
+  },
+  {
+    "category": "Passenger Needs",
+    "text": "Passenger in coach [X] requires wheelchair assistance at [Station]",
+    "priority": false
+  },
+  {
+    "category": "Safety Concerns",
+    "text": "Loose panel reported in coach [X]. Needs inspection.",
+    "priority": false
+  },
+  {
+    "category": "VIP Travellers",
+    "text": "VIP group boarding at [Station]. Ensure welcome protocol.",
+    "priority": false
+  }
+]
